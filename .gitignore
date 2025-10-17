@@ -48,4 +48,63 @@ Thumbs.db
 /Public/Certificate Locaith AI/*.png
 
 # Ignore Go module cache (optional)
+
+### Security & Sensitive Files ###
+# API Keys and Secrets
+*.key
+*.pem
+*.p12
+*.pfx
+config/secrets.json
+config/keys.json
+secrets/
+credentials/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificate files
+*.crt
+*.cer
+*.der
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Supabase
+.supabase/
+
+# Vercel
+.vercel/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+
+# Large media files (if any)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+
+# Temporary folders
+tmp/
+temp/
+.cache/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output
 GOMODCACHE/
