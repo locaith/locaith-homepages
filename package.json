@@ -1,0 +1,27 @@
+{
+  "name": "locaith-homepages",
+  "version": "1.0.0",
+  "description": "Locaith AI Homepage - Nền tảng AI Chat với thiết kế hiện đại và tích hợp tools cho thị trường Việt Nam",
+  "private": true,
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm install && npm run build",
+    "preview": "cd client && npm run preview",
+    "install-client": "cd client && npm install"
+  },
+  "keywords": [
+    "locaith",
+    "ai",
+    "chat",
+    "react",
+    "vite",
+    "typescript",
+    "vietnam"
+  ],
+  "author": "Locaith Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
